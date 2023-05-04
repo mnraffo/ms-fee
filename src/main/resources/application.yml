@@ -1,0 +1,18 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /ms-fee
+
+spring:
+  application:
+    name: ms-fee
+  mvc:
+    throw-exception-if-no-handler-found: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
+
+logging:
+  level:
+    org.springframework.web: DEBUG
